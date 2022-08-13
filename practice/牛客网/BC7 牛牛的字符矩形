@@ -1,0 +1,21 @@
+#include <stdio.h>
+ 
+int main()
+    {
+    char a;
+    int i,c;
+    scanf("%c",&a);
+    for (i=0;i<3;i++)
+        {
+        for (c=0;c<3;c++)
+            {
+            printf("%c",a);
+            }
+        printf("\n");
+            
+        }
+         
+     
+             
+    return 0;
+    }
