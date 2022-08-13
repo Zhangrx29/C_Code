@@ -1,0 +1,17 @@
+#include <stdio.h>
+int main()
+    {
+    
+    float b;
+    scanf("%f",&b);
+    if (b>0)
+        {
+        b+=0.5;
+        }
+    else
+        b-=0.5;
+    
+    int c = b;
+    printf("%d",c);
+    return 0;
+    }
