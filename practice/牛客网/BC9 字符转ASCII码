@@ -1,0 +1,10 @@
+#include <stdio.h>
+
+int main()
+    {
+    char input;
+    scanf("%c",&input);
+    int num = input;
+    printf("%d",num);
+    return 0;
+    }
