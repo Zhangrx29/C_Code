@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main()
+    {
+    int num;
+    float soc1,soc2,soc3;
+    scanf("%d;%f,%f,%f",&num,&soc1,&soc2,&soc3);
+    
+    
+
+    printf("The each subject score of No. ");
+    printf("%d is %.2f, %.2f, %.2f.",num,soc1,soc2,soc3);
+    return 0;
+    }
