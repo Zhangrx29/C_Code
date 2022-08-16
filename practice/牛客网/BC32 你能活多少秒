@@ -1,0 +1,10 @@
+#include <stdio.h>
+#include <math.h> 
+int main()
+{
+	int s = pow(10,7);
+    int year;
+    scanf("%d",&year);
+	printf("%.0f", 3.156*s*year);
+	return 0;
+}
