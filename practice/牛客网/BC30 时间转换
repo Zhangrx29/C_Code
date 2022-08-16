@@ -1,0 +1,12 @@
+#include <stdio.h>
+int main()
+{
+    int a;
+    scanf("%d",&a);
+    int A = a/3600;
+    int B = a%3600/60;
+    int C = a%3600%60;
+    printf("%d %d %d",A,B,C);
+    
+    return 0;
+}
