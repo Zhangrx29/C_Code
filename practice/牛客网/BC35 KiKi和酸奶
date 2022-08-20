@@ -1,0 +1,17 @@
+#include <stdio.h>
+int main()
+{
+    //输入 8盒(n) 5分钟喝一盒(h) 喝了16分钟(m)
+    //输出 剩下未打开的酸奶盒数 4
+    
+    int n = 0, h = 0, m = 0;
+    scanf("%d %d %d",&n, &h, &m);
+    
+    int i = m/h;//喝完
+    if (m % h)//最后打开的一盒没喝完情况
+    {
+        i+=1;
+    }
+    printf("%d",n-i);
+    return 0;
+}
