@@ -1,0 +1,12 @@
+#include <stdio.h>
+int main()
+{
+    float r = 0.0;
+    scanf("%f",&r);
+    r *= r;
+    float p = 3.14159;
+    float S = p*r;
+    printf("%.2f",S);
+    
+    return 0;
+}
